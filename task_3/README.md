@@ -1,13 +1,11 @@
 # Mitral Valve Segmentation
 
 ## 1. Task
----
 
 This project aims to segment the mitral valve in echocardiograms, one of the four heart valves that regulate blood flow. Accurate segmentation serves as a first step in automating the assessment of valve functionality, helping with the detection of related cardiac diseases.
 
 
 ## 2. Data
----
 
 **Disclaimer:** The data, containing sensitive information, is not publicly available.
 
@@ -15,7 +13,6 @@ The dataset includes echocardiograms of variable lengths, with only three frames
 
 
 ## 3. Methodology
----
 
 ### 3.1. Preprocessing
 
@@ -35,6 +32,5 @@ We modified the typical cross-entropy loss to include two types of weighting. Fi
 
 
 ## 4. Evaluation
----
 
 The Jaccard similarity coefficient is used to assess the similarity between the predicted segmentation and the ground truth.

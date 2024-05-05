@@ -1,13 +1,11 @@
 # Heartbeat Classification
 
 ## 1. Task
----
 
 This project focuses on classifying cardiac arrhythmia using Electrocardiogram (ECG) data. Accurate detection and identification of arrhythmias, such as atrial fibrillation, are essential for reducing the risk of strokes and preventing other severe complications associated with heart rhythm disorders.
 
 
 ## 2. Data
----
 
 **Disclaimer:** The data, containing sensitive information, is not publicly available.
 
@@ -15,7 +13,6 @@ The dataset consists of ECG signal recordings of different lengths. Signals were
 
 
 ## 3. Methodology
----
 
 ### 3.1. Pre-Processing
 
@@ -29,6 +26,5 @@ The XGBoost classifier was employed for arrhythmia classification, with class im
 
 
 ## 4. Evaluation
----
 
 The F-score is used to assess the predictive performance of the model.

@@ -1,14 +1,12 @@
 # Age Estimation from Brain Image Data
 
 ## 1. Task
----
 
 This project focuses on estimating a person's age based on features derived from brain image data. 
 Accurately estimating brain age could enhance early diagnosis of age-related neurodegenerative diseases.
 
 
 ## 2. Data
----
 
 **Disclaimer:** The data, containing sensitive information, is not publicly available.
 
@@ -19,7 +17,6 @@ The dataset comprises features extracted from MRI brain scans using FreeSurfer, 
 
 
 ## 3. Methodology
----
 
 ### 3.1. Preprocessing
 
@@ -35,6 +32,5 @@ A Gaussian Process Regressor with a Rational Quadratic kernel is employed for ag
 
 
 ## 4. Evaluation
----
 
 The coefficient of determination (also known as $R^2$ score) is used to assess how well the model predicts the outcome of the dependent variable.

@@ -6,7 +6,6 @@ Projects from the '252-0535-00L Advanced Machine Learning' course by Prof. Buhma
 
 
 ## 2. Projects
----
 
 - **[Task 1](./task_1/README.md)**: Age prediction from MRI features.
 - **[Task 2](./task_2/README.md)**: Cardiac arrhythmia classification using Electrocardiogram (ECG) data.
