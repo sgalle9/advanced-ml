@@ -82,8 +82,8 @@ class Trainer:
                 targets.to(self.device),
                 data_src.to(self.device),
             )
-
-            self.optimizer.zero_grad()
+            # Setting gradients to `None` instead of `0` might improve speed.
+            self.optimizer.zero_grad(set_to_none=True)
 
             outputs = self.model(inputs)
             # Moving average (with "stride" `batch_size`) of the loss.
